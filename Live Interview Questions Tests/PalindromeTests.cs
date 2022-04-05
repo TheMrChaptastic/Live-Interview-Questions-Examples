@@ -5,12 +5,7 @@ namespace Live_Interview_Questions_Tests
 {
     public class PalindromeTests
     {
-        private QPalindrome _palindrome;
-        [SetUp]
-        public void SetUp()
-        {
-            _palindrome = new QPalindrome();
-        }
+        private QPalindrome _palindrome = new QPalindrome();
 
         [Test]
         [TestCase("result")]

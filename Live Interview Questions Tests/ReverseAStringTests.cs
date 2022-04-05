@@ -5,12 +5,8 @@ namespace Live_Interview_Questions_Tests
 {
     public class ReverseAStringTests
     {
-        private QReverseAString _reverseString;
-        [SetUp]
-        public void SetUp()
-        {
-            _reverseString = new QReverseAString();
-        }
+        private QReverseAString _reverseString = new QReverseAString();
+
         [Test]
         [TestCase(null)]
         [TestCase("")]

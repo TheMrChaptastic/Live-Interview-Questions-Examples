@@ -5,12 +5,7 @@ namespace Live_Interview_Questions_Tests
 {
     public class TurnWordsIntoSentenceTests
     {
-        private QTurnWordsIntoSentence _wordsIntoSentence;
-        [SetUp]
-        public void SetUp()
-        {
-            _wordsIntoSentence = new QTurnWordsIntoSentence();
-        }
+        private QTurnWordsIntoSentence _wordsIntoSentence = new QTurnWordsIntoSentence();
 
         [Test]
         [TestCase(null)]

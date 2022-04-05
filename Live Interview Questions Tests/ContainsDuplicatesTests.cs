@@ -5,12 +5,7 @@ namespace Live_Interview_Questions_Tests
 {
     public class ContainsDuplicatesTests
     {
-        private QContainsDuplicates _containsDuplicates;
-        [SetUp]
-        public void SetUp()
-        {
-            _containsDuplicates = new QContainsDuplicates();
-        }
+        private QContainsDuplicates _containsDuplicates = new QContainsDuplicates();
 
         [Test]
         [TestCase("abbde")]

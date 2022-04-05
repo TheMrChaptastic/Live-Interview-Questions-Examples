@@ -5,12 +5,7 @@ namespace Live_Interview_Questions_Tests
 {
     public class ConsecutiveCountTests
     {
-        private QConsecutiveCount _consecutiveCount;
-        [SetUp]
-        public void SetUp()
-        {
-            _consecutiveCount = new QConsecutiveCount();
-        }
+        private QConsecutiveCount _consecutiveCount = new QConsecutiveCount();
 
         [Test]
         [TestCase(null)]

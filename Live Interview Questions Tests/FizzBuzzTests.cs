@@ -5,12 +5,7 @@ namespace Live_Interview_Questions_Tests
 {
     public class FizzBuzzTests
     {
-        private QFizzBuzz _fizzBuzz;
-        [SetUp]
-        public void SetUp()
-        {
-            _fizzBuzz = new QFizzBuzz();
-        }
+        private QFizzBuzz _fizzBuzz = new QFizzBuzz();
 
         [Test]
         [TestCase(2, "2")]

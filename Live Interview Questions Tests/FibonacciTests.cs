@@ -5,12 +5,7 @@ namespace Live_Interview_Questions_Tests
 {
     public class FibonacciTests
     {
-        private QFibonacci _fibonacci;
-        [SetUp]
-        public void SetUp()
-        {
-            _fibonacci = new QFibonacci();
-        }
+        private QFibonacci _fibonacci = new QFibonacci();
 
         [Test]
         [TestCase(0)]
