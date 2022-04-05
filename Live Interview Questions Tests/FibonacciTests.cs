@@ -20,7 +20,7 @@ namespace Live_Interview_Questions_Tests
         {
             var result = _fibonacci.FibonacciNumber(value);
 
-            Assert.AreEqual(0, result, "Should return 0.");
+            Assert.AreEqual(0, result);
         }
 
         [Test]
@@ -34,7 +34,7 @@ namespace Live_Interview_Questions_Tests
         {
             var result = _fibonacci.FibonacciNumber(value);
 
-            Assert.AreEqual(expected, result, $"Should be: {expected}");
+            Assert.AreEqual(expected, result);
         }
     }
 }
