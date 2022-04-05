@@ -15,7 +15,7 @@ namespace Live_Interview_Questions_Tests
         [Test]
         [TestCase(2, "2")]
         [TestCase(7, "7")]
-        [TestCase(93, "93")]
+        [TestCase(97, "97")]
         public void ShouldReturnNumberAsString(int str, string expected)
         {
             var result = _fizzBuzz.FizzBuzz(str);
