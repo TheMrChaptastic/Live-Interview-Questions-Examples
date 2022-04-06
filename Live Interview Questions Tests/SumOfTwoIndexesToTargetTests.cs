@@ -5,10 +5,10 @@ namespace Live_Interview_Questions_Tests
 {
     public class SumOfTwoIndexesToTargetTests
     {
-        private QSumTwoToTargetNumber _sumTwoToTargetNumber = new QSumTwoToTargetNumber();
+        private QSumOfTwoIndexesToTarget _sumTwoToTargetNumber = new QSumOfTwoIndexesToTarget();
 
         [Test]
-        [TestCase(new[] { 1, 2, 3 }, 5, new[] { 0, 2 })]
+        [TestCase(new[] { 1, 2, 3 }, 5, new[] { 1, 2 })]
         [TestCase(new[] { 1, 2, 3 }, 3, new[] { 0, 1 })]
         [TestCase(new[] { 7, 3, 20 }, 10, new[] { 0, 1 })]
         [TestCase(new[] { 7, 3, 20 }, 27, new[] { 0, 2 })]
@@ -26,9 +26,9 @@ namespace Live_Interview_Questions_Tests
         [TestCase(new[] { 3, 11, 13, 1, 2, 11, 16, -100, 17, 192, 43, -1999, 342, 3455, 24, 1, 123, 51, 45, 2, 2, 2, 2, 2, 2, 2, 11, 16, 0, 0, 10 }, 15, new[] { 2, 4 })]
         public void ReturnTwoIndexes(int[] arr, int target, int[] expected)
         {
-            var result = _sumTwoToTargetNumber.TwoDifferentElementsInArrayCanSumToTargetNumber(arr, target);
+            var result = _sumTwoToTargetNumber.SumOfTwoIndexesEqualTarget(arr, target);
 
-            Assert.IsTrue(result);
+            Assert.AreEqual(expected, result);
         }
     }
 }
