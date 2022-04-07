@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Live_Interview_Questions
 {
+    /* Request: Return the highest number of consecutive values in the array. 
+    * 
+    * Example: new int[] { 1, 2, 3, 4, 5, 6, 7, 8 } would return 1 since there are no back to backs of the same value.
+    * new int[] { 1, 3, 3, 3, 3, 5, 6} would return 4 since there are 4 3's next to each other.
+    */
     public class QConsecutiveCount
     {
-        public int ConsecutiveCount(int[] arr)
+        public int HighestConsecutiveCount(int[] arr)
         {
             throw new NotImplementedException(); //your code here
         }
