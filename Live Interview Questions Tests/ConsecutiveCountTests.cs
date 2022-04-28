@@ -18,8 +18,8 @@ namespace Live_Interview_Questions_Tests
         }
 
         [Test]
-        [TestCase(1)]
-        [TestCase(1,2,3,4,5,6,7,8,9)]
+        [TestCase(new int[] { 1 })]
+        [TestCase(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 })]
         public void ShouldReturn1(int[] value)
         {
             var result = _consecutiveCount.HighestConsecutiveCount(value);
@@ -28,8 +28,8 @@ namespace Live_Interview_Questions_Tests
         }
 
         [Test]
-        [TestCase(1, 1, 2, 2)]
-        [TestCase(1, 2, 2, 4, 5, 6, 7, 8, 9)]
+        [TestCase(new int[] { 1, 1, 2, 2 })]
+        [TestCase(new int[] { 1, 2, 2, 4, 5, 6, 7, 8, 9 })]
         public void ShouldReturn2(int[] value)
         {
             var result = _consecutiveCount.HighestConsecutiveCount(value);
@@ -38,8 +38,8 @@ namespace Live_Interview_Questions_Tests
         }
 
         [Test]
-        [TestCase(1, 2, 2, 2)]
-        [TestCase(1, 2, 2, 4, 5, 5, 5, 8, 9)]
+        [TestCase(new int[] { 1, 2, 2, 2 })]
+        [TestCase(new int[] { 1, 2, 2, 4, 5, 5, 5, 8, 9 })]
         public void ShouldReturn3(int[] value)
         {
             var result = _consecutiveCount.HighestConsecutiveCount(value);
