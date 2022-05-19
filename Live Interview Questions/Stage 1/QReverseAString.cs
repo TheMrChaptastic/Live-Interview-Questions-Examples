@@ -12,6 +12,7 @@ namespace Live_Interview_Questions
          * 
          * Example: "cat" would return "tac" || "dog" would return "god"
          * "Hello World!" would return "!dlroW olleH"
+         * null will return "" (empty string)
          */
         public string ReverseString(string str)
         {

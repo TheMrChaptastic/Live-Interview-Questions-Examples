@@ -11,6 +11,7 @@ namespace Live_Interview_Questions
     * Example: new int[] { 1, 2, 3, 4, 5, 6, 7, 8 } would return 1 since there are no back to backs of the same value.
     * new int[] { 1, 3, 3, 3, 3, 5, 6} would return 4 since there are 4 3's next to each other.
     * new int[] { 1, 2, 1, 2, 3, 1} would return 1 since no back to backs of the same value. 
+    * null int array will return 0;
     */
     public class QConsecutiveCount
     {

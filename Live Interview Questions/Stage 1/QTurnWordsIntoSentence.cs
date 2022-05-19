@@ -12,6 +12,7 @@ namespace Live_Interview_Questions
          * 
          * Example: { "Hello", "World!" } will return "Hello World!". 
          * { "Now", "this", "is", "podracing!" } will return "Now this is podracing!"
+         * null will return "" (empty string)
          */
         public string WordsIntoSentence(string[] arr)
         {
