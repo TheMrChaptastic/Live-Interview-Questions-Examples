@@ -7,6 +7,7 @@ namespace Live_Interview_Questions
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");  // We Wont Be Doing Anything Here go to the Question Classes marked with Q(QuestionName).cs
+            // Work in the Classes under the Live Interview Questions Project and write your code within those classes methods.
 
             // This contains Questions collected from real Jr .NET Developer/.NET Developer/Software Engineer interviews.
             // Most were layed out in a 1 hour session seperate from the Personal/Code Knowledge interview.
