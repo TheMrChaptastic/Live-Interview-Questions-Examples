@@ -18,7 +18,26 @@ namespace Live_Interview_Questions
          */
         public string FizzBuzz(int num)
         {
-            throw new NotImplementedException(); //your code here
+            ////POSSIBLE ANSWER ONE
+            //return num % 5 == 0 && num % 3 == 0 ? "FizzBuzz" : num % 5 == 0 ? "Buzz" : num % 3 == 0 ? "Fizz" : num.ToString();
+
+            ////POSSIBLE ANSWER TWO
+            //var response = "";
+            //if (num % 3 == 0)
+            //{
+            //    response += "Fizz";
+            //}
+            //if (num % 5 == 0)
+            //{
+            //    response += "Buzz";
+            //}
+            //if (response == "")
+            //{
+            //    response = num.ToString();
+            //}
+            //return response;
+
+            throw new NotImplementedException();
         }
     }
 }

@@ -16,6 +16,26 @@ namespace Live_Interview_Questions
          */
         public string WordsIntoSentence(string[] arr)
         {
+
+            ////EXAMPLE ONE
+            //if (arr == null)
+            //{
+            //    return "";
+            //}
+            //var sentence = "";
+            //for (int i = 0; i < arr.length; i++)
+            //{
+            //    sentence += arr[i] + " ";
+            //}
+            //return sentence.trim();
+
+            ////EXAMPLE TWO
+            //if (arr == null)
+            //{
+            //    return "";
+            //}
+            //return String.Join(' ', arr);
+
             throw new NotImplementedException();
         }
     }

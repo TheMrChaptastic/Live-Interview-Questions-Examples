@@ -18,7 +18,36 @@ namespace Live_Interview_Questions
         */
         public bool DuplicatesCheck(string str)
         {
-            throw new NotImplementedException(); //your code here
+            ////POSSIBLE ANSWER ONE
+            //for (int i = 0; i < str.Length - 1; i++)
+            //{
+            //    for (int u = i + 1; u < str.Length; u++)
+            //    {
+            //        if (str[i] == str[u])
+            //        {
+            //            return true;
+            //        }
+            //    }
+            //}
+            //return false;
+
+            ////POSSIBLE ANSWER TWO
+            //var array = str.ToArray();
+            //Array.Sort(array);
+            //while(array.Length > 1)
+            //{
+            //    if (array[0] == array[1])
+            //    {
+            //        return true;
+            //    }
+            //    else
+            //    {
+            //        array = array.Where(x => x != array[0]).ToArray();
+            //    }
+            //}
+            //return false;
+
+            throw new NotImplementedException();
         }
     }
 }

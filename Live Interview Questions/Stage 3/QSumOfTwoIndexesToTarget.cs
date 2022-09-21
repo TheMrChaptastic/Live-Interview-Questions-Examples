@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,25 @@ namespace Live_Interview_Questions
          * 
          * Example: The array(arr) [ 1, 3, 5 ] and the target 8 will return new int[] { 1, 2 } 
          * because the index 1 => (3) and index 2 => (5) sums are equal to the target number 8.
+         * BE CAREFUL OF SORTING SINCE THE ANSWER IS BASED ON ORIGINAL INDEXES
          * 
          * Assume no nulls and each test has a valid answer associated with it.
          */
         public int[] SumOfTwoIndexesEqualTarget(int[] arr, int target)
         {
+            ////POSSIBLE ANSWER
+            //for (int i = 0; i < arr.Length - 1; i++)
+            //{
+            //    for (int u = i + 1; u < arr.Length; u++)
+            //    {
+            //        if (arr[i] + arr[u] == target)
+            //        {
+            //            return new int[] { i, u };
+            //        }
+            //    }
+            //}
+            //return new int[0];
+
             throw new NotImplementedException();
         }
     }

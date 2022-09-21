@@ -17,6 +17,28 @@ namespace Live_Interview_Questions
     {
         public string FirstToThreeStrongReads(string[] ids, int[] strength)
         {
+            ////POSSIBLE ANSWER
+            //var dictionary = new Dictionary<string, int>();
+            //for(int i = 0; i < ids.Length; i++)
+            //{
+            //    if (strength[i] > 10)
+            //    {
+            //        if (dictionary.ContainsKey(ids[i]))
+            //        {
+            //            dictionary[ids[i]]++;
+            //            if (dictionary[ids[i]] == 3)
+            //            {
+            //                return ids[i];
+            //            }
+            //        }
+            //        else
+            //        {
+            //            dictionary.Add(ids[i], 1);
+            //        }
+            //    }
+            //}
+            //return null;
+
             throw new NotImplementedException();
         }
     }

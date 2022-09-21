@@ -4,7 +4,7 @@ namespace Live_Interview_Questions
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //POSSIBLE ANSWERS BRANCH
         {
             Console.WriteLine("Hello World!"); // We Wont Be Doing Anything Here go to the Question Classes marked with Q(QuestionName).cs
             // Work in the Classes under the Live Interview Questions Project and write your code within those classes methods.

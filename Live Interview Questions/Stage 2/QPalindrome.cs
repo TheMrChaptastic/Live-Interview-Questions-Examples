@@ -16,6 +16,21 @@ namespace Live_Interview_Questions
          */
         public bool PalindromeCheck(string str)
         {
+            ////POSSIBLE ANSWER ONE
+            //return str == String.Join("", str.Reverse());
+
+            ////POSSIBLE ANSWER TWO
+            //var reversed = "";
+            //for(int i = str.Length - 1; i >= 0; i--)
+            //{
+            //    reversed += str[i];
+            //}
+            //if (str == reversed)
+            //{
+            //    return true;
+            //}
+            //return false;
+
             throw new NotImplementedException(); //your code here        
         }
     }

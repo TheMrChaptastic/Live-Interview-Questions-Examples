@@ -16,7 +16,38 @@ namespace Live_Interview_Questions
          */
         public string ReverseString(string str)
         {
-            throw new NotImplementedException(); //your code here        
+            ////ANSWER ONE
+            //if (str == null)
+            //{
+            //    return "";
+            //}
+            //return String.Join("", str.Reverse());
+
+            ////ANSWER TWO
+            //if (str == null)
+            //{
+            //    return "";
+            //}
+            //var reversed = "";
+            //for (int i = str.Length - 1; i >= 0; i--)
+            //{
+            //    reversed += str[i];
+            //}
+            //return reversed;
+
+            ////ANSWER THREE
+            //if (str == null)
+            //{
+            //    return "";
+            //}
+            //var reversed = "";
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    reversed = str[i] + reversed; 
+            //}
+            //return reversed;
+
+            throw new NotImplementedException();
         }
     }
 }

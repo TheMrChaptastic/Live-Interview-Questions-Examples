@@ -16,6 +16,43 @@ namespace Live_Interview_Questions
          */
         public bool TwoDifferentElementsInArrayCanSumToTargetNumber(int[] arr, int target)
         {
+            ////POSSIBLE ANSWER ONE
+            //for (int i = 0; i < arr.Length - 1; i++)
+            //{
+            //    for (int u = i + 1; u < arr.Length; u++)
+            //    {
+            //        if (target == arr[i] + arr[u])
+            //        {
+            //            return true;
+            //        }
+            //    }
+            //}
+            //return false;
+
+            ////POSSIBLE ANSWER TWO
+            //var start = 0;
+            //var end = arr.Length - 1;
+            //Array.Sort(arr);
+            //while (start < end)
+            //{
+            //    if (arr[start] + arr[end] == target)
+            //    {
+            //        return true;
+            //    }
+            //    else
+            //    {
+            //        if (arr[start] + arr[end] > target)
+            //        {
+            //            end--;
+            //        }
+            //        else
+            //        {
+            //            start++;
+            //        }
+            //    }
+            //}
+            //return false;
+
             throw new NotImplementedException();
         }
     }
