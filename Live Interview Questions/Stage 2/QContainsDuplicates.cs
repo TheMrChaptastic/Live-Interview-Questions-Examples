@@ -34,15 +34,11 @@ namespace Live_Interview_Questions
             ////POSSIBLE ANSWER TWO
             //var array = str.ToArray();
             //Array.Sort(array);
-            //while(array.Length > 1)
+            //for (int i = 0; i < array.Length - 1; i++)
             //{
-            //    if (array[0] == array[1])
+            //    if (array[i] == array[i + 1])
             //    {
             //        return true;
-            //    }
-            //    else
-            //    {
-            //        array = array.Where(x => x != array[0]).ToArray();
             //    }
             //}
             //return false;
