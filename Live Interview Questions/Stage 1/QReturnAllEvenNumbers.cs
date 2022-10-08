@@ -8,7 +8,6 @@ namespace Live_Interview_Questions
 {
     public class QReturnAllEvenNumbers
     {
-
         /* Request: Return a List of type 'int' containing numbers from 1 to 'n'(parameter) that are EVEN numbers.
         * 
         * Example: n = 2 would return a list containing { 2 }. n = 5 would return a list containing { 2, 4 }.
