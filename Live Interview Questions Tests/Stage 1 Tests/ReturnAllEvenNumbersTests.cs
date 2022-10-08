@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Live_Interview_Questions_Tests
 {
-    public class ListOfEvenNumbersFrom1toNTests
+    public class ReturnAllEvenNumbersTests
     {
-        private QListOfEvenNumbersFrom1toN _returnAnArray = new QListOfEvenNumbersFrom1toN();
+        private QReturnAllEvenNumbers _returnAnArray = new QReturnAllEvenNumbers();
 
         [Test]
         [TestCase(1)]
