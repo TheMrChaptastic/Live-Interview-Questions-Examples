@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Live_Interview_Questions_Tests
 {
-    public class MergeSortTwoLists
+    public class MergeSortTwoListsTests
     {
         private QMergeSortTwoLists _sumTwoToTargetNumber = new QMergeSortTwoLists();
 
