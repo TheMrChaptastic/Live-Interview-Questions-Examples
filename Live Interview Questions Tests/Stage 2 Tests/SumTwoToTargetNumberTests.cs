@@ -1,7 +1,7 @@
 ﻿using Live_Interview_Questions;
 using NUnit.Framework;
 
-namespace Live_Interview_Questions_Tests
+namespace Live_Interview_Questions_Tests.Stage_2_Tests
 {
     public class SumTwoToTargetNumberTests
     {
