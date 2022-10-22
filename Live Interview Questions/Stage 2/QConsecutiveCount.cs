@@ -18,7 +18,7 @@ namespace Live_Interview_Questions
     {
         public int HighestConsecutiveCount(int[] arr)
         {
-            throw new NotImplementedException(); //your code here heres a change
+            throw new NotImplementedException(); //your code here
         }
     }
 }
