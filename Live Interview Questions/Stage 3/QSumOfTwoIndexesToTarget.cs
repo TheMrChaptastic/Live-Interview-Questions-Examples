@@ -32,6 +32,22 @@ namespace Live_Interview_Questions
             //}
             //return new int[0];
 
+            ////POSSIBLE ANSWER
+            //var dic = new Dictionary<int, int>();
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    var rem = target - arr[i];
+            //    if (dic.ContainsKey(rem))
+            //    {
+            //        return new int[2] { dic[rem], i }; 
+            //    }
+            //    if (!dic.ContainsKey(arr[i]))
+            //    {
+            //        dic.Add(arr[i], i);
+            //    }
+            //}
+            //return new int[0];
+
             throw new NotImplementedException();
         }
     }
