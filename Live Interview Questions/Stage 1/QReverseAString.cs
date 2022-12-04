@@ -47,6 +47,18 @@ namespace Live_Interview_Questions
             //}
             //return reversed;
 
+            ////ANSWER FOUR
+            //var charArr = str?.ToCharArray();
+            //var start = 0;
+            //var end = charArr?.Length - 1 ?? 0;
+            //while (start < end)
+            //{
+            //    var temp = charArr[start];
+            //    charArr[start++] = charArr[end];
+            //    charArr[end--] = temp;
+            //}
+            //return charArr != null ? string.Join("", charArr) : "";
+
             throw new NotImplementedException();
         }
     }
