@@ -16,16 +16,27 @@ namespace Live_Interview_Questions
         public List<int> ReturnListEvensFrom1ToN(int n)
         {
             //var list = new List<int>();
-            //if (n == null || n <= 1)
+            //if (n <= 1)
             //{
             //    return list;
             //}
-            //for(int i = 1; i <= n; i++)
+            //for (int i = 1; i <= n; i++)
             //{
             //    if (i % 2 == 0)
             //    {
             //        list.Add(i);
             //    }
+            //}
+            //return list;
+
+            //var list = new List<int>();
+            //if (n <= 1)
+            //{
+            //    return list;
+            //}
+            //for (int i = 2; i <= n; i+=2)
+            //{
+            //    list.Add(i);
             //}
             //return list;
 

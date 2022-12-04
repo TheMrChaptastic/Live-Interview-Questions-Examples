@@ -16,7 +16,6 @@ namespace Live_Interview_Questions_Tests.Stage_1_Tests
         [TestCase(1)]
         [TestCase(0)]
         [TestCase(-100)]
-        [TestCase(null)]
         public void ShouldBeEmptyIntList(int n)
         {
             var result = _returnAnArray.ReturnListEvensFrom1ToN(n);
