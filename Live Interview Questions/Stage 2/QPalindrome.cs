@@ -31,6 +31,19 @@ namespace Live_Interview_Questions
             //}
             //return false;
 
+            ////POSSIBLE ANSWER THREE
+            //var charArr = str.ToCharArray();
+            //var start = 0;
+            //var end = charArr.Length - 1;
+            //while (start < end)
+            //{
+            //    if (charArr[start++] != charArr[end--])
+            //    {
+            //        return false;
+            //    }
+            //}
+            //return true;
+
             throw new NotImplementedException(); //your code here        
         }
     }

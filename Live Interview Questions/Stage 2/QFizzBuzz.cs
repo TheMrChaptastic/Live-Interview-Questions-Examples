@@ -18,7 +18,7 @@ namespace Live_Interview_Questions
          */
         public string FizzBuzz(int num)
         {
-            ////POSSIBLE ANSWER ONE
+            ////POSSIBLE ANSWER ONE (Probably dont do this if they arent fans of ternary readability)
             //return num % 5 == 0 && num % 3 == 0 ? "FizzBuzz" : num % 5 == 0 ? "Buzz" : num % 3 == 0 ? "Fizz" : num.ToString();
 
             ////POSSIBLE ANSWER TWO

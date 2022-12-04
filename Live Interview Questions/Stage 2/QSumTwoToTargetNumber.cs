@@ -53,6 +53,21 @@ namespace Live_Interview_Questions
             //}
             //return false;
 
+            ////POSSIBLE ANSWER THREE
+            //var list = new List<int>();
+            //for(int i = 0; i < arr.Length; i++)
+            //{
+            //    if (list.Contains(target - arr[i]))
+            //    {
+            //        return true;
+            //    }
+            //    else
+            //    {
+            //        list.Add(arr[i]);
+            //    }
+            //}
+            //return false;
+
             throw new NotImplementedException();
         }
     }

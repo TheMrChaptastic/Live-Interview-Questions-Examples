@@ -46,6 +46,21 @@ namespace Live_Interview_Questions
             //}
             //return list[n - 1];
 
+            ////POSSIBLE ANSWER THREE (RECURSION)
+            //var num = n - 1;
+            //if (num <= 1)
+            //{
+            //    if (num <= 0)
+            //    {
+            //        return 0;
+            //    }
+            //    return num;
+            //}
+
+            //var one = FibonacciNumber(num);
+            //var two = FibonacciNumber(num - 1);
+            //return one + two;
+
             throw new NotImplementedException();
         }
     }
