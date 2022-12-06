@@ -25,6 +25,7 @@ namespace Live_Interview_Questions_Tests.Stage_2_Tests
         [TestCase(5, 3)]
         [TestCase(6, 5)]
         [TestCase(10, 34)]
+        [TestCase(41, 102334155)]
         public void ShouldReturnNumber(int value, int expected)
         {
             var result = _fibonacci.FibonacciNumber(value);
