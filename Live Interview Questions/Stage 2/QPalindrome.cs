@@ -44,6 +44,18 @@ namespace Live_Interview_Questions
             //}
             //return true;
 
+            ////POSSIBLE ANSWER FOUR
+            //StringBuilder reversed = new StringBuilder("");
+            //for (int i = str.Length - 1; i >= 0; i--)
+            //{
+            //    reversed.Append(str[i]);
+            //}
+            //if (str == reversed.ToString())
+            //{
+            //    return true;
+            //}
+            //return false;
+
             throw new NotImplementedException(); //your code here        
         }
     }

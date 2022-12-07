@@ -36,6 +36,18 @@ namespace Live_Interview_Questions
             //}
             //return String.Join(' ', arr);
 
+            ////EXAMPLE THREE
+            //if (arr == null)
+            //{
+            //    return String.Empty;
+            //}
+            //StringBuilder sentence = new StringBuilder(arr[0]);
+            //for(int i = 1; i < arr.Length; i++)
+            //{
+            //    sentence.Append(" " + arr[i]);
+            //}
+            //return sentence.ToString();
+
             throw new NotImplementedException();
         }
     }

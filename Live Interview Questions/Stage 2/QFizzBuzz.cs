@@ -37,6 +37,22 @@ namespace Live_Interview_Questions
             //}
             //return response;
 
+            ////POSSIBLE ANSWER THREE
+            //StringBuilder response = new StringBuilder("");
+            //if (num % 3 == 0)
+            //{
+            //    response.Append("Fizz");
+            //}
+            //if (num % 5 == 0)
+            //{
+            //    response.Append("Buzz");
+            //}
+            //if (response.ToString() == "")
+            //{
+            //    return num.ToString();
+            //}
+            //return response.ToString();
+
             throw new NotImplementedException();
         }
     }

@@ -59,6 +59,18 @@ namespace Live_Interview_Questions
             //}
             //return charArr != null ? string.Join("", charArr) : "";
 
+            ////ANSWER FIVE
+            //StringBuilder result = new StringBuilder("");
+            //if (str == null)
+            //{
+            //    return result.ToString();
+            //}
+            //for(int i = str.Length - 1; i >= 0; i--)
+            //{
+            //    result.Append(str[i]);
+            //}
+            //return result.ToString();
+
             throw new NotImplementedException();
         }
     }
