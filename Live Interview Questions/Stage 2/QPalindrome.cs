@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,12 +33,11 @@ namespace Live_Interview_Questions
             //return false;
 
             ////POSSIBLE ANSWER THREE
-            //var charArr = str.ToCharArray();
             //var start = 0;
-            //var end = charArr.Length - 1;
+            //var end = str.Length - 1;
             //while (start < end)
             //{
-            //    if (charArr[start++] != charArr[end--])
+            //    if (str[start++] != str[end--])
             //    {
             //        return false;
             //    }
